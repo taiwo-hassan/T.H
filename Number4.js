@@ -1,7 +1,7 @@
 prompt=require("prompt-sync");
  word =prompt("enter a word");
  letter=" ";
-length= word.length();
+length= word.length;
 console.log(length);
  count=0;
 while (length>=1){

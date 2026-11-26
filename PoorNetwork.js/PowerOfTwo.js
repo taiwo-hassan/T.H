@@ -1,14 +1,14 @@
 
 function IsPowerOfTwo(number) {
-let divisor= 1
-while (divisor<=number) {
-if (divisor==number) 
+let divisor= number
+while (divisor<= number) {
+if (divisor%2==0) 
 {return "true"} 
 else 
 {return "false"}
-divsor*=2;
+
 
 }
 }
 
-console.log(IsPowerOfTwo(16))
+console.log(IsPowerOfTwo(13))

@@ -1,12 +1,16 @@
-function weight (number) {
-let sum=0
-while(number>=1) {
-let binary= number%2
- sum+=binary ;
- Math.floor(number);
- Math.floor(number/=2);}
-return sum
+function climbStairs(totalSteps) {  
+let count=1;
+let number=1;
+while(count<=totalSteps) { 
+
+
+
+
+count++;}
+
+
+
+
+
+
 }
-
-
-console.log(weight (41))
